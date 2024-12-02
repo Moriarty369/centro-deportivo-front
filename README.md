@@ -173,6 +173,9 @@ To contribute to this project, please follow these steps:
 This project is licensed. For more details, please check the LICENSE file.
 
 ---
+<div align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZLCc_7YH-7urnc8N7_5YCR9JhWEiA6qTrCM55UPPXjg&s" alt="Club Deportivo Ciudad de los Angeles - ¡Somos ciudad!" width="250px">
+</div>
 
 # Sistema de Gestión - Somos Ciudad
 
@@ -276,4 +279,73 @@ Este proyecto tiene como objetivo desarrollar el frontend para el sitio web del 
 <h4 id="version-control">Control de Versiones</h4>
 <p><a href="#"><img src="https://img.shields.io/badge/git%20-%23F05033.svg?&amp;style=for-the-badge&amp;logo=git&amp;logoColor=white&amp;labelColor=101010" alt="Git"></a>
 <a href="#"><img src="https://img.shields.io/badge/github%20-%23121011.svg?&amp;style=for-the-badge&amp;logo=github&amp;logoColor=whit&amp;logoColor=white&amp;labelColor=101010" alt="Github"></a></p>
-``` 
+
+# Ramas de Git
+   ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+
+| RAMA   | Descripción                                                                            |
+| ------- | -------------------------------------------------------------------------------------- |
+| main    | Rama principal. Contiene los resultados finales.                                       |
+| develop | Rama para desarrollos en progreso.                                                    |
+| origin/feature/auth | Rama para gestión de token y registro de usuario, inicio de sesión |
+| origin/feature/admin-dash | Rama para integración de token con las funcionalidades de administración |
+| origin/feature/footer | Rama para la UI del pie de página |
+| origin/feature/header | Rama para la UI del encabezado y funcionalidades de contacto |
+| origin/feature/sidebar | Rama para la UI del sidebar de administrador y usuario |
+| origin/feature/design | Rama de diseño general para estilos de componentes |
+| origin/feature/form-player  | Estilización y funcionalidad del formulario de jugador |
+| origin/feature/forms | Estilización y funcionalidad de los formularios de registro e inicio de sesión de usuario |
+| origin/feature/home | Rama de UI para la página principal |
+| origin/feature/merchandising | UI del merchandising sin iniciar sesión |
+| origin/feature/new-player-form-integration | Rama de integración del formulario de jugador |
+| origin/feature/order-users  | Rama para la UI de compra de usuario |
+| origin/feature/players | Funcionalidades de administración para ver jugadores |
+| origin/feature/products | Vista administrativa para pedidos de productos |
+| origin/feature/resources | Recursos UI para componentes generales |
+| origin/feature/sidebar | UI y funcionalidad para el sidebar |
+| origin/feature/terms-and-conditions | UI para los términos y condiciones bajo la LOPD |
+| origin/feature/user-profile | UI y funcionalidades para el perfil del usuario |
+| origin/feature/users-and-players-view | UI vinculada de usuario y jugador |
+| origin/feature/orders-detail-view | Vista detallada de pedidos de productos |
+| origin/feature/order-pdf | Adjuntar PDF a la UI de pago de productos |
+| origin/readme | Rama de modificaciones del README |
+| origin/test/e2e | Rama de pruebas end-to-end del frontend |
+| origin/chore/security-sanitization | Funcionalidades extra de seguridad en la UI |
+| origin/security/decode| Rama de verificación de token en la UI |
+
+# Planificación
+
+- Planificación de tareas en
+
+ Trello
+- Standups diarios
+- Sprints
+- Todos por uno.
+
+# Nuestro Equipo
+
+- Carla Escobar (https://github.com/carlaprimola)
+- Leandra Montoya (https://github.com/leamontoya19)
+- Andrea García (https://github.com/angarce25)
+- Fiorella Sandoval (https://github.com/FiorellaSF)
+- Alvaro González (https://github.com/agt1984)
+- Isaac García Adjuntar (https://github.com/Isarok)
+- Abelardo Acosta (https://github.com/Moriarty369)
+
+## Contribuir
+
+Para contribuir a este proyecto, siga estos pasos:
+
+1. Hacer un fork del repositorio.
+2. Crear una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realizar sus cambios y hacer commit de ellos (`git commit -am 'Agregar nueva funcionalidad'`).
+4. Subir sus cambios al repositorio (`git push origin feature/nueva-funcionalidad`).
+5. Crear una nueva solicitud de Pull.
+6. El equipo de desarrollo será notificado sobre la solicitud.
+
+## Licencia
+
+Este proyecto está bajo licencia. Para más detalles, consulte el archivo LICENSE.
+
+---
+```
